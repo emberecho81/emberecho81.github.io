@@ -1,0 +1,1295 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>国产黑料最新曝光-舆情观察与核查指引</title>
+<meta name="description" content="国产黑料最新曝光专题：汇总11月1日至11月8日国产剧集、综艺与短剧的争议线索，整理时间线、原始说法、片方回应与核查方法，并附观众评论与相关推荐，帮助读者分清事实、转述与推测。">
+<meta name="keywords" content="国产黑料最新曝光">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23a8322d'/%3E%3Cpath d='M18 20h28v6H18zm0 12h28v6H18zm0 12h18v6H18z' fill='%23f5ede4'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f7f3ee;
+  --panel:#fffdfa;
+  --ink:#241f1c;
+  --ink-2:#4d443e;
+  --ink-3:#7a6e66;
+  --line:#e3d9cf;
+  --line-2:#d3c5b8;
+  --brand:#a8322d;
+  --brand-2:#c8574f;
+  --accent:#2f5d50;
+  --accent-2:#e8efe9;
+  --warn:#8a5a12;
+  --warn-bg:#fbf1dc;
+  --radius:10px;
+  --radius-s:6px;
+  --shadow:0 1px 2px rgba(36,31,28,.05),0 6px 18px rgba(36,31,28,.06);
+  --space:clamp(14px,2vw,22px);
+  --wrap:1180px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs-h1:clamp(28px,3.6vw,42px);
+  --fs-h2:clamp(20px,2.3vw,25px);
+  --fs-h3:clamp(16px,1.6vw,18px);
+  --fs-body:16px;
+  --fs-s:14px;
+  --fs-xs:13px;
+  --bar-h:40px;
+  --head-h:62px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:var(--font);font-size:var(--fs-body);line-height:1.78;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:3px}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;letter-spacing:.01em}
+p{margin:0 0 .85em}
+ul,ol{margin:0 0 .85em;padding-left:1.25em}
+li{margin-bottom:.35em}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 var(--space)}
+
+/* ===== 吸顶公告条 + 页头 ===== */
+.sticky-zone{position:sticky;top:0;z-index:60}
+.notice{
+  background:var(--brand);color:#fff8f2;font-size:var(--fs-xs);
+  height:var(--bar-h);display:flex;align-items:center;
+}
+.notice .wrap{display:flex;align-items:center;gap:10px;min-width:0}
+.notice .tag{
+  flex:none;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);
+  padding:1px 7px;border-radius:99px;font-size:12px;letter-spacing:.04em;
+}
+.notice .txt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice .txt b{font-weight:600}
+.notice .txt a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+.site-head{
+  background:rgba(255,253,250,.96);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line);height:var(--head-h);
+}
+.head-inner{display:flex;align-items:center;gap:18px;height:100%}
+.brand{display:flex;align-items:center;gap:9px;flex:none;color:var(--ink);text-decoration:none}
+.brand:hover{text-decoration:none}
+.brand .logo{width:32px;height:32px;flex:none}
+.brand .name{font-weight:800;font-size:17px;letter-spacing:.02em}
+.main-nav{display:flex;align-items:center;gap:4px;margin-left:auto;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+.main-nav::-webkit-scrollbar{display:none}
+.main-nav a{
+  color:var(--ink-2);font-size:var(--fs-s);padding:6px 9px;border-radius:var(--radius-s);
+  white-space:nowrap;
+}
+.main-nav a:hover{background:#f0e7dd;color:var(--ink);text-decoration:none}
+.head-tools{display:flex;align-items:center;gap:8px;flex:none}
+.search{position:relative}
+.search input{
+  width:180px;max-width:34vw;font:inherit;font-size:var(--fs-s);
+  padding:7px 10px;border:1px solid var(--line-2);border-radius:var(--radius-s);
+  background:#fff;color:var(--ink);
+}
+.search input::placeholder{color:var(--ink-3)}
+.search-result{
+  position:absolute;right:0;top:calc(100% + 6px);width:min(340px,86vw);
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);
+  box-shadow:var(--shadow);padding:8px;font-size:var(--fs-xs);
+  max-height:280px;overflow:auto;display:none;
+}
+.search-result.on{display:block}
+.search-result a{display:block;padding:5px 7px;border-radius:4px;color:var(--ink-2)}
+.search-result a:hover{background:#f5ece3;text-decoration:none}
+.search-result .none{color:var(--ink-3);padding:6px 7px}
+.menu-btn{
+  display:none;align-items:center;gap:6px;font:inherit;font-size:var(--fs-s);
+  background:#fff;border:1px solid var(--line-2);border-radius:var(--radius-s);
+  padding:7px 10px;color:var(--ink);cursor:pointer;
+}
+.menu-btn svg{width:16px;height:16px}
+
+/* 锚点偏移 */
+section[id],div[id].anchor{scroll-margin-top:calc(var(--bar-h) + var(--head-h) + 12px)}
+
+/* ===== 首屏 ===== */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fbf6f0,#f7f1ea)}
+.hero-inner{
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:clamp(18px,3vw,44px);align-items:center;padding:clamp(26px,4vw,52px) 0;
+}
+.kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-xs);
+  color:var(--brand);background:#f7e3e0;border:1px solid #edd0cb;
+  padding:3px 10px;border-radius:99px;letter-spacing:.05em;margin-bottom:14px;
+}
+.hero h1{font-size:var(--fs-h1);letter-spacing:.01em;margin-bottom:14px}
+.hero h1 em{font-style:normal;color:var(--brand)}
+.hero .lede{color:var(--ink-2);font-size:16.5px;max-width:36em;margin-bottom:18px}
+.hero .lede b{color:var(--ink);font-weight:600}
+.hero-cta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.btn{
+  display:inline-flex;align-items:center;gap:7px;font-size:var(--fs-s);
+  padding:9px 16px;border-radius:var(--radius-s);border:1px solid transparent;
+  cursor:pointer;font-family:inherit;transition:transform .15s ease,background .15s ease;
+}
+.btn:hover{text-decoration:none;transform:translateY(-2px)}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-primary:hover{background:#942a26}
+.btn-ghost{background:#fff;color:var(--ink);border-color:var(--line-2)}
+.btn-ghost:hover{background:#f6eee6}
+.hero-stats{display:flex;flex-wrap:wrap;gap:10px 26px;padding-top:16px;border-top:1px dashed var(--line-2)}
+.hero-stats div{font-size:var(--fs-xs);color:var(--ink-3)}
+.hero-stats b{display:block;font-size:20px;color:var(--ink);font-weight:800;line-height:1.3}
+
+.hero-visual{position:relative;min-height:280px}
+.hero-visual svg{width:100%;height:auto;position:relative;z-index:1}
+.hv-card{
+  position:absolute;background:#fffdfa;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow);padding:9px 12px;font-size:12px;color:var(--ink-2);z-index:2;
+  line-height:1.5;max-width:210px;
+}
+.hv-card b{display:block;color:var(--ink);font-size:12.5px;margin-bottom:1px}
+.hv-1{top:6%;right:0;border-left:3px solid var(--brand)}
+.hv-2{bottom:14%;left:0;border-left:3px solid var(--accent)}
+.hv-3{bottom:-2%;right:8%;border-left:3px solid var(--warn)}
+
+/* ===== 布局：三栏门户 ===== */
+.layout{
+  display:grid;grid-template-columns:210px minmax(0,1fr) 288px;
+  gap:clamp(16px,2.4vw,30px);padding:clamp(20px,3vw,34px) 0 40px;align-items:start;
+}
+.side-nav{position:sticky;top:calc(var(--bar-h) + var(--head-h) + 14px)}
+.side-nav h2{font-size:13px;letter-spacing:.12em;color:var(--ink-3);margin-bottom:10px;text-transform:uppercase;font-weight:600}
+.side-nav ol{list-style:none;padding:0;margin:0;border-left:2px solid var(--line)}
+.side-nav li{margin:0}
+.side-nav a{
+  display:block;padding:6px 12px;font-size:var(--fs-s);color:var(--ink-2);
+  border-left:2px solid transparent;margin-left:-2px;line-height:1.5;
+}
+.side-nav a:hover{color:var(--ink);text-decoration:none;background:#f2eae1}
+.side-nav a.active{border-left-color:var(--brand);color:var(--brand);font-weight:600;background:#f8eee7}
+
+.main-col{min-width:0}
+.side-col{min-width:0;display:flex;flex-direction:column;gap:clamp(16px,2vw,22px)}
+
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:clamp(16px,2.2vw,24px);box-shadow:var(--shadow);margin-bottom:clamp(16px,2.2vw,22px);
+}
+.card:last-child{margin-bottom:0}
+.sec-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.sec-head h2{font-size:var(--fs-h2)}
+.sec-head .sub{font-size:var(--fs-xs);color:var(--ink-3)}
+.sec-head .more{margin-left:auto;font-size:var(--fs-xs)}
+.dek{color:var(--ink-2);font-size:15px;margin-bottom:14px}
+
+/* 概览：四块 */
+.overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.ov-item{background:#fbf6f0;border:1px solid var(--line);border-radius:var(--radius-s);padding:12px 14px}
+.ov-item h3{font-size:15px;margin-bottom:4px}
+.ov-item p{margin:0;font-size:var(--fs-xs);color:var(--ink-2)}
+
+/* 精选推荐：非对称组合 */
+.feature-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:14px}
+.feature-main{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);overflow:hidden}
+.feature-main img{width:100%;height:188px;object-fit:cover}
+.feature-main .body{padding:13px 15px}
+.feature-main h3{font-size:18px;margin-bottom:6px}
+.feature-main p{font-size:var(--fs-s);color:var(--ink-2);margin-bottom:8px}
+.feature-list{display:flex;flex-direction:column;gap:10px}
+.fmini{display:flex;gap:11px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:9px 11px}
+.fmini img{width:76px;height:66px;border-radius:4px;object-fit:cover;flex:none}
+.fmini h4{font-size:14px;margin-bottom:3px;line-height:1.45}
+.fmini span{font-size:12px;color:var(--ink-3)}
+.badge{
+  display:inline-block;font-size:11px;padding:1px 7px;border-radius:99px;
+  background:#f7e3e0;color:var(--brand);margin-right:6px;line-height:1.7;
+}
+.badge.g{background:var(--accent-2);color:var(--accent)}
+.badge.y{background:var(--warn-bg);color:var(--warn)}
+
+/* 最新更新：紧凑列表 */
+.upd-list{list-style:none;padding:0;margin:0}
+.upd-list li{
+  display:grid;grid-template-columns:66px minmax(0,1fr) auto;gap:10px;
+  align-items:baseline;padding:9px 0;border-bottom:1px dashed var(--line);margin:0;
+}
+.upd-list li:last-child{border-bottom:0}
+.upd-list time{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.upd-list .t{font-size:14.5px;color:var(--ink-2)}
+.upd-list .t b{color:var(--ink)}
+.upd-list .src{font-size:11.5px;color:var(--ink-3);white-space:nowrap}
+
+/* 分类入口：标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:8px}
+.tag-index a{
+  display:inline-block;font-size:var(--fs-xs);padding:5px 11px;border-radius:99px;
+  background:#f4ece3;border:1px solid var(--line);color:var(--ink-2);
+}
+.tag-index a:hover{background:#ece0d4;text-decoration:none;color:var(--ink)}
+.tag-index a b{font-weight:700;color:var(--brand);margin-left:4px}
+
+/* 深度解析：分栏正文 */
+.deep h3{font-size:var(--fs-h3);margin:18px 0 8px;padding-left:11px;border-left:3px solid var(--brand)}
+.deep h3:first-of-type{margin-top:6px}
+.deep p{font-size:15.5px;color:var(--ink-2)}
+.deep strong{color:var(--ink)}
+.deep .col2{column-count:2;column-gap:26px}
+.deep .col2 p{break-inside:avoid}
+
+/* 核查拆解表 */
+.check-table{width:100%;border-collapse:collapse;font-size:var(--fs-xs);margin:12px 0}
+.check-table th,.check-table td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.check-table th{background:#f4ece3;font-weight:600;color:var(--ink)}
+.check-table td{color:var(--ink-2)}
+.check-table td b{color:var(--ink)}
+
+/* 体验指南：编号步骤 */
+.steps{list-style:none;counter-reset:st;padding:0;margin:0;display:grid;gap:12px}
+.steps li{
+  counter-increment:st;position:relative;padding:12px 14px 12px 50px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);margin:0;
+}
+.steps li::before{
+  content:counter(st,decimal-leading-zero);position:absolute;left:12px;top:12px;
+  width:26px;height:26px;border-radius:50%;background:var(--accent-2);color:var(--accent);
+  display:grid;place-items:center;font-size:12px;font-weight:700;
+}
+.steps h4{font-size:14.5px;margin-bottom:3px}
+.steps p{margin:0;font-size:var(--fs-xs);color:var(--ink-2)}
+
+/* FAQ */
+details{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);margin-bottom:9px;overflow:hidden}
+details[open]{border-color:var(--line-2)}
+summary{
+  cursor:pointer;padding:11px 14px;font-size:14.5px;font-weight:600;color:var(--ink);
+  list-style:none;display:flex;gap:10px;align-items:flex-start;
+}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";color:var(--brand);font-weight:700;flex:none;width:12px;text-align:center}
+details[open] summary::before{content:"–"}
+details .faq-body{padding:0 14px 12px 36px;font-size:var(--fs-s);color:var(--ink-2)}
+details .faq-body p{margin:0 0 .5em}
+
+/* 评论 */
+.cmt-list{display:grid;gap:11px}
+.cmt{display:grid;grid-template-columns:38px minmax(0,1fr);gap:11px}
+.ava{
+  width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
+  font-size:14px;font-weight:700;color:#fff;background:var(--brand-2);flex:none;
+}
+.ava.g{background:#4d7a6a}
+.ava.y{background:#a8813f}
+.ava.k{background:#6b625b}
+.cmt .meta{font-size:12px;color:var(--ink-3);margin-bottom:2px}
+.cmt .meta b{color:var(--ink-2);font-weight:600}
+.cmt p{margin:0;font-size:14.5px;color:var(--ink-2)}
+.cmt p em{font-style:normal;background:#fbf1dc;padding:0 3px;border-radius:3px;color:var(--warn)}
+
+/* 相关资讯 */
+.news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.news{background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:11px 13px}
+.news h4{font-size:14px;margin-bottom:4px;line-height:1.5}
+.news p{margin:0;font-size:12.5px;color:var(--ink-3)}
+.news time{display:block;font-size:11.5px;color:var(--ink-3);margin-top:7px}
+
+/* 榜单 / 时间线 */
+.rank-list{list-style:none;padding:0;margin:0;counter-reset:rk}
+.rank-list li{
+  counter-increment:rk;display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:10px;
+  align-items:center;padding:8px 0;border-bottom:1px dashed var(--line);margin:0;font-size:14px;
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-list li::before{
+  content:counter(rk);width:22px;height:22px;border-radius:5px;background:#f0e6db;
+  color:var(--ink-2);font-size:12px;display:grid;place-items:center;font-weight:700;
+}
+.rank-list li:nth-child(1)::before{background:var(--brand);color:#fff}
+.rank-list li:nth-child(2)::before{background:var(--brand-2);color:#fff}
+.rank-list li:nth-child(3)::before{background:#c99a6b;color:#fff}
+.rank-list .v{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+
+.timeline{list-style:none;padding:0 0 0 16px;margin:0;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 13px 14px;margin:0;font-size:14px;color:var(--ink-2)}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-22px;top:6px;width:8px;height:8px;border-radius:50%;
+  background:var(--brand-2);border:2px solid var(--panel);
+}
+.timeline b{color:var(--ink)}
+.timeline time{display:block;font-size:12px;color:var(--ink-3)}
+
+/* 侧栏组件 */
+.side-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow)}
+.side-card h2{font-size:14px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line);letter-spacing:.03em}
+.side-card h3{font-size:13.5px}
+.mini-list{list-style:none;padding:0;margin:0}
+.mini-list li{padding:6px 0;font-size:13px;border-bottom:1px dashed var(--line);margin:0;line-height:1.55}
+.mini-list li:last-child{border-bottom:0;padding-bottom:0}
+.mini-list a{color:var(--ink-2)}
+.mini-list a:hover{color:var(--brand)}
+.mini-list .d{display:block;font-size:11.5px;color:var(--ink-3)}
+
+.quote-card{background:#f3f7f4;border:1px solid #d7e4dc;border-left:4px solid var(--accent)}
+.quote-card p{font-size:13.5px;color:var(--ink-2);margin-bottom:8px}
+.quote-card .who{font-size:12px;color:var(--accent);font-weight:600}
+
+/* 相关推荐标签 */
+.rel-tags{display:flex;flex-wrap:wrap;gap:8px}
+.rel-tags a{
+  font-size:12.5px;padding:4px 10px;border-radius:4px;background:#f5ece3;
+  border:1px solid var(--line);color:var(--ink-2);
+}
+.rel-tags a:hover{background:#ece0d4;text-decoration:none}
+
+/* 页脚 */
+.site-foot{background:#241f1c;color:#d8cec6;margin-top:20px;padding:clamp(28px,4vw,46px) 0 18px;font-size:var(--fs-s)}
+.foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:clamp(16px,3vw,34px);padding-bottom:24px;border-bottom:1px solid #3a332e}
+.foot-brand{display:flex;align-items:center;gap:9px;color:#fff;font-weight:800;font-size:17px;margin-bottom:10px}
+.foot-brand .logo{width:30px;height:30px}
+.foot-pos{font-size:13px;color:#a99e94;line-height:1.75;margin:0 0 12px}
+.foot-note{font-size:12px;color:#8e8379;background:#2e2824;border:1px solid #3d3631;border-radius:6px;padding:9px 11px}
+.foot-col h3{font-size:13px;color:#f0e7de;margin-bottom:9px;font-weight:600}
+.foot-col ul{list-style:none;padding:0;margin:0}
+.foot-col li{margin:0 0 6px}
+.foot-col a{color:#b3a89e;font-size:13px}
+.foot-col a:hover{color:#fff}
+.foot-bottom{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between;padding-top:16px;font-size:12px;color:#8e8379}
+
+/* 回到顶部 */
+#toTop{
+  position:fixed;right:16px;bottom:20px;z-index:70;
+  width:42px;height:42px;border-radius:50%;border:1px solid var(--line-2);
+  background:#fffdfa;color:var(--ink);box-shadow:var(--shadow);cursor:pointer;
+  display:none;place-items:center;font-size:12px;font-family:inherit;
+}
+#toTop.on{display:grid}
+#toTop:hover{background:#f4ece3}
+
+/* 平板 */
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr) 280px}
+  .side-nav{display:none}
+  .hero-inner{grid-template-columns:1fr;gap:20px}
+  .hero-visual{min-height:0;order:-1}
+  .hv-card{max-width:170px;padding:7px 9px}
+  .foot-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .layout{grid-template-columns:minmax(0,1fr)}
+  .side-col{order:2}
+  .main-col{order:1}
+  .main-nav{display:none}
+  .main-nav.open{
+    display:flex;position:absolute;left:0;right:0;top:calc(var(--bar-h) + var(--head-h));
+    background:#fffdfa;border-bottom:1px solid var(--line);padding:8px var(--space);
+    flex-direction:column;align-items:stretch;gap:0;box-shadow:var(--shadow);
+    max-height:60vh;overflow:auto;
+  }
+  .head-inner{position:relative;gap:10px}
+  .menu-btn{display:inline-flex}
+  .search input{width:120px}
+  .main-nav.open a{padding:9px 8px;border-radius:4px}
+  .notice .tag{display:none}
+  .feature-grid{grid-template-columns:1fr}
+  .overview{grid-template-columns:1fr}
+  .news-grid{grid-template-columns:1fr}
+  .deep .col2{column-count:1}
+  .foot-top{grid-template-columns:1fr}
+  .hv-3{display:none}
+  .upd-list li{grid-template-columns:56px minmax(0,1fr)}
+  .upd-list .src{display:none}
+  #toTop{width:38px;height:38px;right:12px;bottom:14px}
+}
+@media (max-width:400px){
+  .hero .lede{font-size:15.5px}
+  .brand .name{font-size:15px}
+  .search input{width:96px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+html{scroll-behavior:smooth}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-zone">
+  <div class="notice" role="region" aria-label="站内公告">
+    <div class="wrap">
+      <span class="tag">更新</span>
+      <span class="txt">11月7日 22:10 追加《雾港追凶》片方声明原文；<b>11月8日 09:30</b> 新增短剧《长夜借灯》录音比对条目 · <a href="/#updates">查看全部更新</a></span>
+    </div>
+  </div>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <a class="brand" href="/#" aria-label="国产黑料最新曝光 首页">
+        <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#a8322d"/>
+          <path d="M17 19h30v5H17z" fill="#f5ede4"/>
+          <path d="M17 28h30v5H17z" fill="#f5ede4" opacity=".78"/>
+          <path d="M17 37h30v5H17z" fill="#f5ede4" opacity=".55"/>
+          <circle cx="46" cy="46" r="10" fill="#f7e3e0"/>
+          <path d="M41.5 46h9M46 41.5v9" stroke="#a8322d" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+        <span class="name">国产黑料最新曝光</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">现象地图</a>
+        <a href="/#picks">本周精选</a>
+        <a href="/#updates">实时更新</a>
+        <a href="/#channels">分类索引</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">核查指南</a>
+        <a href="/#faq">常见疑问</a>
+        <a href="/#voices">观众评论</a>
+        <a href="/#rank">热度榜</a>
+      </nav>
+
+      <div class="head-tools">
+        <div class="search" role="search">
+          <label for="q" class="visually-hidden" style="position:absolute;left:-9999px">站内搜索</label>
+          <input id="q" type="search" placeholder="搜剧名 / 争议点" autocomplete="off" aria-describedby="searchResult">
+          <div class="search-result" id="searchResult" role="status" aria-live="polite"></div>
+        </div>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          菜单
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main>
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="kicker">11月1日—11月8日 · 国产剧集与综艺争议追踪</span>
+        <h1 id="heroTitle">国产黑料最新曝光</h1>
+        <p class="lede">把这一周的录音、通告单、片方声明和平台改动排到同一条时间线上，再看它们互相矛盾在哪。范围覆盖国产剧集、网络综艺、微短剧三类，共 <b>37 条可核对线索</b>，全部标注原始出处与发布时间，分得清<b>已确认、片方回应、第三方转述、待验证推测</b>四层。</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="/#deep">看本周深度判断</a>
+          <a class="btn btn-ghost" href="/#updates">翻最新 12 条更新</a>
+          <a class="btn btn-ghost" href="/#guide">照流程自查</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>37</b>可核对线索</div>
+          <div><b>9</b>条片方声明</div>
+          <div><b>4</b>组录音比对</div>
+          <div><b>11/8</b>页面数据时点</div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 420 320" role="img">
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f3e4db"/><stop offset="1" stop-color="#e8d5c8"/>
+            </linearGradient>
+          </defs>
+          <rect x="8" y="18" width="404" height="284" rx="16" fill="url(#g1)"/>
+          <rect x="34" y="48" width="220" height="14" rx="7" fill="#a8322d" opacity=".85"/>
+          <rect x="34" y="74" width="150" height="9" rx="4.5" fill="#8a5a12" opacity=".5"/>
+          <g stroke="#241f1c" stroke-opacity=".28" stroke-width="1.4">
+            <line x1="34" y1="108" x2="386" y2="108"/>
+            <line x1="34" y1="152" x2="386" y2="152"/>
+            <line x1="34" y1="196" x2="386" y2="196"/>
+            <line x1="34" y1="240" x2="386" y2="240"/>
+          </g>
+          <g>
+            <circle cx="70" cy="108" r="7" fill="#a8322d"/>
+            <circle cx="140" cy="152" r="7" fill="#2f5d50"/>
+            <circle cx="230" cy="108" r="7" fill="#8a5a12"/>
+            <circle cx="300" cy="196" r="7" fill="#a8322d"/>
+            <circle cx="352" cy="240" r="7" fill="#4d7a6a"/>
+          </g>
+          <path d="M70 108 L140 152 L230 108 L300 196 L352 240" fill="none" stroke="#a8322d" stroke-width="2" stroke-dasharray="5 5" opacity=".55"/>
+          <rect x="34" y="262" width="86" height="10" rx="5" fill="#2f5d50" opacity=".5"/>
+          <rect x="130" y="262" width="58" height="10" rx="5" fill="#8a5a12" opacity=".45"/>
+          <rect x="198" y="262" width="112" height="10" rx="5" fill="#241f1c" opacity=".22"/>
+        </svg>
+        <div class="hv-card hv-1"><b>《雾港追凶》第14集</b>场记板日期与通告单差 3 天，片方回应称“补拍”</div>
+        <div class="hv-card hv-2"><b>录音比对</b>4 段音频里 2 段可对齐时间码，另 2 段来源未标注</div>
+        <div class="hv-card hv-3"><b>平台动作</b>11月6日 起《长夜借灯》片尾字幕新增“配音：林知远”</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 三栏布局 -->
+  <div class="wrap layout">
+
+    <!-- 左侧导航 -->
+    <aside class="side-nav" aria-label="栏目导航">
+      <h2>栏目</h2>
+      <ol id="sideNavList">
+        <li><a href="/#overview">现象地图</a></li>
+        <li><a href="/#picks">本周精选推荐</a></li>
+        <li><a href="/#updates">最新更新</a></li>
+        <li><a href="/#channels">分类索引</a></li>
+        <li><a href="/#deep">深度解析</a></li>
+        <li><a href="/#guide">核查体验指南</a></li>
+        <li><a href="/#faq">常见疑问</a></li>
+        <li><a href="/#voices">观众评论</a></li>
+        <li><a href="/#news">相关资讯</a></li>
+        <li><a href="/#rank">本周热度榜</a></li>
+        <li><a href="/#timeline">时间线</a></li>
+        <li><a href="/#rel">相关推荐</a></li>
+      </ol>
+    </aside>
+
+    <!-- 主内容列 -->
+    <div class="main-col">
+
+      <!-- 1 领域概览 -->
+      <section class="card" id="overview" aria-labelledby="h-overview">
+        <div class="sec-head">
+          <h2 id="h-overview">国产剧集与综艺争议的现象地图</h2>
+          <span class="sub">11月1日—11月8日 · 37 条线索分层</span>
+        </div>
+        <p class="dek">近一周的争议主要集中在三处：剧集补拍与场记时间对不上、配音署名在片尾字幕里换人、微短剧营销号剪辑拼接原片。三类事各自留下的痕迹不同，核对的入口也不同。</p>
+        <div class="overview">
+          <div class="ov-item">
+            <h3>补拍时间差</h3>
+            <p>《雾港追凶》第 12—14 集通告单日期为 9月21日，场记板显示 9月24日。补拍在行业里常见，问题在于声明与素材谁先谁后。</p>
+          </div>
+          <div class="ov-item">
+            <h3>配音署名变更</h3>
+            <p>《长夜借灯》11月6日片尾新增“配音：林知远”，原版仅列配音导演。演员原声还是后期配音，目前只有字幕这一处证据。</p>
+          </div>
+          <div class="ov-item">
+            <h3>营销号剪辑拼接</h3>
+            <p>抖音账号“追剧不睡觉”11月3日发布的 47 秒片段，把第 8 集与第 21 集台词接在一起，造成角色关系误读。</p>
+          </div>
+          <div class="ov-item">
+            <h3>综艺剪辑争议</h3>
+            <p>《周末不加班》第 6 期正片删掉导师点评 2 分 40 秒，选手分数从 78 改判为 82，节目组未在片尾说明。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2 精选推荐 -->
+      <section class="card" id="picks" aria-labelledby="h-picks">
+        <div class="sec-head">
+          <h2 id="h-picks">本周精选推荐</h2>
+          <a class="more" href="/#rel">全部推荐 →</a>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-main">
+            <img src="https://picsum.photos/seed/wugang-behind/720/400" width="720" height="400" loading="lazy" alt="《雾港追凶》第14集雨夜码头场景的幕后场记板与灯光设备" style="object-fit:cover">
+            <div class="body">
+              <h3><span class="badge">深度</span>《雾港追凶》补拍争议：三份时间文件的对读</h3>
+              <p>通告单、场记板、片方 11月7日声明，三份文件的日期链条能拼到哪儿，断在哪儿。附原文措辞逐句对照。</p>
+              <a href="/#deep">读完整拆解</a>
+            </div>
+          </article>
+          <div class="feature-list">
+            <a class="fmini" href="/#timeline" style="color:inherit;text-decoration:none">
+              <img src="https://picsum.photos/seed/changye-audio/160/140" width="160" height="140" loading="lazy" alt="《长夜借灯》录音波形比对界面截图" style="object-fit:cover">
+              <div>
+                <h4>《长夜借灯》录音比对：4 段音频的时间码</h4>
+                <span>11月5日 · 2 段可对齐</span>
+              </div>
+            </a>
+            <a class="fmini" href="/#news" style="color:inherit;text-decoration:none">
+              <img src="https://picsum.photos/seed/zhoumo-edit/160/140" width="160" height="140" loading="lazy" alt="综艺《周末不加班》第六期剪辑室屏幕上的时间线轨道" style="object-fit:cover">
+              <div>
+                <h4>《周末不加班》删除的 2 分 40 秒点评</h4>
+                <span>11月4日 · 改判 78→82</span>
+              </div>
+            </a>
+            <a class="fmini" href="/#channels" style="color:inherit;text-decoration:none">
+              <img src="https://picsum.photos/seed/duanju-mkt/160/140" width="160" height="140" loading="lazy" alt="微短剧营销号剪辑片段与正片画面对比" style="object-fit:cover">
+              <div>
+                <h4>微短剧拼接剪辑：47 秒里的两集台词</h4>
+                <span>11月3日 · 账号“追剧不睡觉”</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="card" id="updates" aria-labelledby="h-updates">
+        <div class="sec-head">
+          <h2 id="h-updates">最新更新</h2>
+          <span class="sub">按发布时间倒序</span>
+        </div>
+        <ul class="upd-list">
+          <li>
+            <time datetime="2026-11-08">11月8日</time>
+            <span class="t"><b>09:30</b> 短剧《长夜借灯》录音比对新增第 4 段，来源为 11月2日 B 站用户“声纹笔记”上传的原始文件</span>
+            <span class="src">B站 · 声纹笔记</span>
+          </li>
+          <li>
+            <time datetime="2026-11-07">11月7日</time>
+            <span class="t"><b>22:10</b> 《雾港追凶》出品方“岚川影业”发布 643 字声明，称第 12—14 集为 9月24日补拍，否认替身</span>
+            <span class="src">@岚川影业</span>
+          </li>
+          <li>
+            <time datetime="2026-11-07">11月7日</time>
+            <span class="t"><b>15:02</b> 豆瓣《雾港追凶》条目评分从 7.9 降至 7.6，短评区新增 4100 条，含剧集补拍讨论</span>
+            <span class="src">豆瓣</span>
+          </li>
+          <li>
+            <time datetime="2026-11-06">11月6日</time>
+            <span class="t"><b>20:41</b> 《长夜借灯》片尾字幕第 3 屏新增“配音：林知远”，此前该位置为空白</span>
+            <span class="src">腾讯视频</span>
+          </li>
+          <li>
+            <time datetime="2026-11-05">11月5日</time>
+            <span class="t"><b>11:18</b> 网友比对《长夜借灯》第 9 集与演员林知远 8月直播音色，指出 3 处气口位置不一致</span>
+            <span class="src">知乎 · 剧集考据</span>
+          </li>
+          <li>
+            <time datetime="2026-11-04">11月4日</time>
+            <span class="t"><b>18:26</b> 《周末不加班》第 6 期导师评分由 78 改判 82，改判理由未在正片出现，仅见录制现场观众拍屏</span>
+            <span class="src">现场观众拍屏</span>
+          </li>
+          <li>
+            <time datetime="2026-11-03">11月3日</time>
+            <span class="t"><b>10:05</b> 抖音账号“追剧不睡觉”发布 47 秒《长夜借灯》片段，拼接第 8 集与第 21 集台词</span>
+            <span class="src">抖音</span>
+          </li>
+          <li>
+            <time datetime="2026-11-02">11月2日</time>
+            <span class="t"><b>21:47</b> 《雾港追凶》第 14 集片尾字幕时长由 2 分 12 秒变为 2 分 31 秒，新增 4 个岗位署名</span>
+            <span class="src">爱奇艺</span>
+          </li>
+          <li>
+            <time datetime="2026-11-01">11月1日</time>
+            <span class="t"><b>13:30</b> 微短剧《今夜不散场》被指海报人物造型与 2025 年短剧《旧巷来客》高度相似，制片方未回应</span>
+            <span class="src">微博 · 短剧观察</span>
+          </li>
+          <li>
+            <time datetime="2026-10-31">10月31日</time>
+            <span class="t"><b>16:12</b> 《雾港追凶》摄影指导微博清空近 3 个月内容，账号保留，未作解释</span>
+            <span class="src">微博</span>
+          </li>
+          <li>
+            <time datetime="2026-10-30">10月30日</time>
+            <span class="t"><b>09:00</b> 平台上线《长夜借灯》第 20—24 集，片头提示“本剧含配音版本”，未区分集数</span>
+            <span class="src">腾讯视频</span>
+          </li>
+          <li>
+            <time datetime="2026-10-29">10月29日</time>
+            <span class="t"><b>19:55</b> 综艺《周末不加班》第 5 期加更版比正片多 6 分 18 秒，多出的内容为选手采访</span>
+            <span class="src">芒果TV</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="card" id="channels" aria-labelledby="h-channels">
+        <div class="sec-head">
+          <h2 id="h-channels">分类索引</h2>
+          <span class="sub">按争议类型与剧集品类进入</span>
+        </div>
+        <p class="dek">每一类下面挂的是本周实际出现过的条目，不是空栏目。括号内为 11月1日以来的线索条数。</p>
+        <div class="tag-index">
+          <a href="/#deep">剧集补拍时间差 <b>6</b></a>
+          <a href="/#timeline">配音署名变更 <b>5</b></a>
+          <a href="/#news">综艺剪辑改判 <b>4</b></a>
+          <a href="/#deep">微短剧拼接剪辑 <b>7</b></a>
+          <a href="/#rank">海报与造型相似 <b>3</b></a>
+          <a href="/#voices">演员原声争议 <b>4</b></a>
+          <a href="/#news">片尾字幕改动 <b>5</b></a>
+          <a href="/#guide">营销号断章取义 <b>6</b></a>
+          <a href="/#picks">古装剧服化道考据 <b>3</b></a>
+          <a href="/#timeline">都市剧职业细节失真 <b>2</b></a>
+          <a href="/#faq">短剧备案信息缺失 <b>2</b></a>
+          <a href="/#rel">平台评分异常波动 <b>3</b></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="card deep" id="deep" aria-labelledby="h-deep">
+        <div class="sec-head">
+          <h2 id="h-deep">深度解析：补拍、配音、剪辑三件事各自能追到哪一步</h2>
+          <span class="sub">全页唯一主体阅读区</span>
+        </div>
+
+        <p>本周所有争议里，能落到“文件与文件对不上”这一级的，只有《雾港追凶》的补拍和《长夜借灯》的配音署名。综艺改判与短剧拼接属于第二级：有原始素材，但缺当事人完整说法。下面分开说，每个判断都给出可反驳的落点。</p>
+
+        <h3>一、《雾港追凶》第 12—14 集：场记板比通告单晚 3 天，这不等于造假</h3>
+        <p>通告单日期 9月21日，场记板 9月24日，两处都留了图。岚川影业 11月7日 22:10 的声明原文是“第 12 至 14 集于 9 月 24 日进行补拍，用于替换第 14 集结尾 4 分 20 秒的雨夜码头戏”。<strong>补拍本身是行业常规操作</strong>，问题不在补拍，在于第 14 集正片里码头戏的演员背影与第 12 集同一角色肩宽对不上，B 站用户“帧里帧外”11月5日的对比视频给出 3 组截图，第 2 组里替身演员的右手腕没有角色设定的旧疤。</p>
+        <p>可反驳的点在这里：疤是化妆可以补的，肩宽也可能因机位与镜头焦段变化。要证伪片方“同一演员”的说法，需要第 14 集 4 分 20 秒处的原始拍摄素材或演员当日行程，目前两者都没有公开。所以目前只能确认“存在补拍”，不能确认“使用替身”。<strong>把补拍直接等同于替身，是这一周传播里最常见的跳步。</strong></p>
+
+        <h3>二、《长夜借灯》配音署名：字幕改动是事实，声纹结论还不是</h3>
+        <p>11月6日 20:41，腾讯视频《长夜借灯》片尾字幕第 3 屏出现“配音：林知远”。此前该位置空白，只有“配音导演：周敏”。这是可截图、可复现的事实。往前推，11月5日 11:18 知乎用户“剧集考据”发布音频对比，称第 9 集男主 3 处气口与林知远 8月直播音色不一致，帖子给出 2 段 12 秒波形图，但没给采样率与降噪参数。</p>
+        <p>本周新增的第 4 段录音来自 B 站“声纹笔记”，文件时长 31 秒，标注录制于 11月2日。四段音频里能对齐时间码的只有 2 段，另外 2 段没有原始文件哈希。<strong>在没有原始文件的情况下，波形相似只能算旁证。</strong>更硬的一条线索是平台动作：10月30日上线的第 20—24 集片头提示“本剧含配音版本”，说明片方至少在 10月底就承认存在配音版本，只是没有说明从第几集开始。</p>
+
+        <h3>三、《周末不加班》改判 2 分 40 秒：现场拍屏与正片的差异可量化</h3>
+        <p>第 6 期正片里，导师点评段落总长 5 分 08 秒，现场观众 11月4日 18:26 上传的拍屏为 7 分 48 秒，差 2 分 40 秒。分数从 78 改为 82 发生在被删段落内。节目组至今未发声明。这里能确认的是“正片比现场少 2 分 40 秒”，不能确认“删减是为了掩盖改判”——改判也可能发生在录制当天、剪辑之前。要分清这两件事，需要录制流程单或导师本人说明。</p>
+
+        <h3>四、把判断拆成可核对的结构</h3>
+        <table class="check-table">
+          <caption style="text-align:left;font-size:13px;color:var(--ink-3);padding:4px 0">表：三类争议的证据强度对照（截至 11月8日 09:30）</caption>
+          <thead>
+            <tr><th>争议</th><th>已确认事实</th><th>片方回应</th><th>第三方转述</th><th>仍属推测</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>《雾港追凶》补拍</b></td>
+              <td>通告单 9/21、场记板 9/24；第 14 集字幕增 4 个岗位</td>
+              <td>11/7 声明承认补拍，否认替身</td>
+              <td>B站对比视频 3 组截图</td>
+              <td>第 14 集码头戏是否用替身</td>
+            </tr>
+            <tr>
+              <td><b>《长夜借灯》配音</b></td>
+              <td>11/6 片尾新增配音署名；10/30 片头提示含配音版本</td>
+              <td>暂无正式声明</td>
+              <td>知乎音色对比 2 段波形</td>
+              <td>第 9 集起是否全部为后期配音</td>
+            </tr>
+            <tr>
+              <td><b>《周末不加班》改判</b></td>
+              <td>正片与现场拍屏差 2 分 40 秒；分数 78→82</td>
+              <td>未回应</td>
+              <td>现场观众拍屏</td>
+              <td>删减是否与改判直接相关</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>三个案子的共同点是：可确认的部分都比传播里说的窄。补拍能确认，替身不能；字幕改动能确认，全部配音不能；删减能确认，动机不能。<strong>传播速度快过证据补齐速度，是这一周国产剧集争议的稳定特征</strong>，而这恰恰是可以被反驳的一句——如果下周有原始素材公开，“窄”的判断就要跟着改。</p>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="card" id="guide" aria-labelledby="h-guide">
+        <div class="sec-head">
+          <h2 id="h-guide">核查体验指南：六步把一条爆料拆开</h2>
+          <span class="sub">照做一遍约 15 分钟</span>
+        </div>
+        <p class="dek">以《雾港追凶》补拍条目为样本。每一步都给出具体动作和能拿到的产物，不写“保持理性”这种没法执行的话。</p>
+        <ol class="steps">
+          <li>
+            <h4>先存原始发布页，不存转发截图</h4>
+            <p>找到首发账号与时间。《雾港追凶》条目首发为 11月1日 22:14 微博用户“剧组边角料”，截图带客户端水印，可据此确认平台。</p>
+          </li>
+          <li>
+            <h4>把日期摊成一条线</h4>
+            <p>9月21日通告单、9月24日场记板、11月1日首发、11月2日字幕变化、11月7日声明。五个点按时间排，缺口自然显现。</p>
+          </li>
+          <li>
+            <h4>区分“谁说的”</h4>
+            <p>声明是片方说的，对比视频是 B站用户说的，片尾字幕是平台呈现的。三者权重不同，不要混在同一句里。</p>
+          </li>
+          <li>
+            <h4>找能证伪的最小素材</h4>
+            <p>要推翻“同一演员”，只需第 14 集 4 分 20 秒的原始素材或演员当日行程。比继续找更多截图有效。</p>
+          </li>
+          <li>
+            <h4>检查平台侧改动</h4>
+            <p>字幕、片头提示、集数上线时间都算平台侧痕迹。10月30日片头提示比 11月6日字幕早 7 天，顺序有意义。</p>
+          </li>
+          <li>
+            <h4>把结论写成三档</h4>
+            <p>已确认 / 待验证 / 不成立。写不进任何一档的，就标“证据不足”，别硬塞进结论。</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="card" id="faq" aria-labelledby="h-faq">
+        <div class="sec-head">
+          <h2 id="h-faq">常见疑问</h2>
+          <span class="sub">围绕补拍、配音、缝合剪辑</span>
+        </div>
+
+        <details>
+          <summary>剧集补拍之后，正片里的场记板和通告单为什么会对不上？</summary>
+          <div class="faq-body">
+            <p>补拍会另起一份通告单和场记板，日期与首轮拍摄不同，但正片是把两轮素材剪在一起的。所以同一集里出现两个日期是正常的，判断点是补拍声明与素材替换范围是否一致。</p>
+          </div>
+        </details>
+        <details>
+          <summary>《长夜借灯》片尾新增“配音：林知远”，能说明前面几集也是配音吗？</summary>
+          <div class="faq-body">
+            <p>不能直接说明。字幕只覆盖它出现的那一版，平台片头“本剧含配音版本”的提示也没标集数。要确认范围，需要平台分集列表里的音轨信息，目前这一项未公开。</p>
+          </div>
+        </details>
+        <details>
+          <summary>短剧拼接剪辑里的 47 秒片段，平台为什么没有下架？</summary>
+          <div class="faq-body">
+            <p>截至 11月8日 09:30，抖音账号“追剧不睡觉”的视频仍在，点赞 3.2 万。平台对二创剪辑的判定通常看是否标注来源与是否用于误导，这条视频两样都缺，但下架与否取决于权利方投诉。</p>
+          </div>
+        </details>
+        <details>
+          <summary>综艺评分从 78 改判到 82，赛制允许吗？</summary>
+          <div class="faq-body">
+            <p>《周末不加班》赛制文件写的是“导师可在录制现场修改一次评分，须口头说明理由”。现场拍屏里能听到改判，但被删的 2 分 40 秒是否含理由说明，正片没有。</p>
+          </div>
+        </details>
+        <details>
+          <summary>豆瓣评分一周内从 7.9 跌到 7.6，算刷分吗？</summary>
+          <div class="faq-body">
+            <p>7.9 到 7.6 对应约 4100 条新增短评，条目页显示短评集中出现在 11月5日至 11月7日。短评占比上升不一定等于刷分，豆瓣未公布异常账号处理数量。</p>
+          </div>
+        </details>
+        <details>
+          <summary>补拍声明里的“替换 4 分 20 秒”能不能对上正片时长？</summary>
+          <div class="faq-body">
+            <p>第 14 集正片时长 43 分 06 秒，与片方声明的替换段落长度无法直接比对，因为声明没说原段落多长。第 14 集片尾字幕比 11月2日 版本多 19 秒，这个数字可核对。</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- 8 观众评论 -->
+      <section class="card" id="voices" aria-labelledby="h-voices">
+        <div class="sec-head">
+          <h2 id="h-voices">观众评论</h2>
+          <span class="sub">站内留言 · 保留原话</span>
+        </div>
+        <div class="cmt-list">
+          <div class="cmt">
+            <div class="ava">周</div>
+            <div>
+              <div class="meta"><b>周屿</b> · 11月7日 23:41 · 针对《雾港追凶》第14集</div>
+              <p>码头戏那个背影转身的镜头，左手腕确实干净。但第 12 集特写里疤在右手，两处不是同一只手，拿这个当替身证据不成立。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava g">林</div>
+            <div>
+              <div class="meta"><b>林间有雾</b> · 11月7日 20:15 · 针对岚川影业声明</div>
+              <p>声明的 643 字里，“补拍”出现 4 次，“替身”出现 2 次，都没给日期。不是要他们认错，是想知道 9月24日 那场戏谁在场。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava y">老</div>
+            <div>
+              <div class="meta"><b>老片重看</b> · 11月6日 22:03 · 针对《长夜借灯》</div>
+              <p>字幕加名字比发声明有用，至少承认了配音版本存在。第 9 集男主那句“灯还亮着”气口确实和林知远直播不一样，我反复听了三遍。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava k">阿</div>
+            <div>
+              <div class="meta"><b>阿岩</b> · 11月6日 09:20</div>
+              <p>这类汇总看多了，条目越来越长，能核对的却没几条。希望把“谁说的、什么时候说的”标得更死一点，别只写“有争议”。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava">糊</div>
+            <div>
+              <div class="meta"><b>糊咖观察员</b> · 11月5日 18:44 · 针对《周末不加班》</div>
+              <p>78 改 82 那 2 分 40 秒我看了拍屏，导师说的是“这一段现场感不够，加 4 分”。正片把这句剪掉后，改判就显得没头没尾。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava g">鸭</div>
+            <div>
+              <div class="meta"><b>鸭梨不小</b> · 11月4日 13:07 · 针对短剧拼接视频</div>
+              <p>“追剧不睡觉”那条 47 秒我也刷到了，第 8 集和第 21 集接在一起，角色明明没见过面。评论区吵了两天才有人指出来。</p>
+            </div>
+          </div>
+          <div class="cmt">
+            <div class="ava y">南</div>
+            <div>
+              <div class="meta"><b>南窗笔记</b> · 11月3日 21:30 · 针对《今夜不散场》海报</div>
+              <p>海报造型和《旧巷来客》像到这种程度，制片方一句不回应，反而让讨论停在“像不像”上，没有往下走。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="card" id="news" aria-labelledby="h-news">
+        <div class="sec-head">
+          <h2 id="h-news">相关资讯</h2>
+          <a class="more" href="/#updates">更多更新 →</a>
+        </div>
+        <div class="news-grid">
+          <article class="news">
+            <h4><span class="badge g">平台</span>爱奇艺调整《雾港追凶》第14集字幕时长</h4>
+            <p>11月2日 21:47，片尾字幕由 2 分 12 秒变为 2 分 31 秒，新增 4 个岗位署名，含“补拍统筹”。</p>
+            <time datetime="2026-11-02">11月2日</time>
+          </article>
+          <article class="news">
+            <h4><span class="badge">回应</span>岚川影业：补拍用于替换雨夜码头戏</h4>
+            <p>11月7日 22:10 声明，643 字，承认 9月24日补拍，否认使用替身，未公布当日演员行程。</p>
+            <time datetime="2026-11-07">11月7日</time>
+          </article>
+          <article class="news">
+            <h4><span class="badge y">争议</span>《长夜借灯》分集音轨信息未公开</h4>
+            <p>10月30日片头上线“含配音版本”提示，11月6日片尾补署名，但平台分集列表仍不显示音轨类型。</p>
+            <time datetime="2026-11-06">11月6日</time>
+          </article>
+          <article class="news">
+            <h4><span class="badge g">综艺</span>《周末不加班》加更版与正片差 6 分 18 秒</h4>
+            <p>10月29日 19:55 上线的加更版多出选手采访，第 6 期被删的导师点评未出现在加更版中。</p>
+            <time datetime="2026-10-29">10月29日</time>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10 榜单 -->
+      <section class="card" id="rank" aria-labelledby="h-rank">
+        <div class="sec-head">
+          <h2 id="h-rank">本周热度榜</h2>
+          <span class="sub">按 11月1日—11月8日站内条目阅读量</span>
+        </div>
+        <ol class="rank-list">
+          <li><a href="/#deep">《雾港追凶》补拍争议：三份时间文件的对读</a><span class="v">4.8 万</span></li>
+          <li><a href="/#timeline">《长夜借灯》配音署名与 4 段录音</a><span class="v">3.6 万</span></li>
+          <li><a href="/#news">《周末不加班》改判 78→82 的 2 分 40 秒</a><span class="v">2.9 万</span></li>
+          <li>微短剧拼接剪辑：47 秒里的两集台词<span class="v">2.2 万</span></li>
+          <li>《今夜不散场》海报造型相似争议<span class="v">1.7 万</span></li>
+          <li>《雾港追凶》豆瓣评分 7.9→7.6 的短评结构<span class="v">1.4 万</span></li>
+          <li>《长夜借灯》第 20—24 集片头提示改动<span class="v">1.1 万</span></li>
+          <li>《周末不加班》加更版多出的 6 分 18 秒<span class="v">0.9 万</span></li>
+        </ol>
+      </section>
+
+      <!-- 11 时间线 -->
+      <section class="card" id="timeline" aria-labelledby="h-timeline">
+        <div class="sec-head">
+          <h2 id="h-timeline">时间线：配音署名与录音比对的推进</h2>
+          <span class="sub">10月29日—11月8日</span>
+        </div>
+        <ul class="timeline">
+          <li><b>10月29日 19:55</b> 《周末不加班》加更版上线，比正片多 6 分 18 秒，未含被删点评。<time datetime="2026-10-29">10月29日</time></li>
+          <li><b>10月30日 09:00</b> 《长夜借灯》第 20—24 集上线，片头提示“本剧含配音版本”。<time datetime="2026-10-30">10月30日</time></li>
+          <li><b>10月31日 16:12</b> 《雾港追凶》摄影指导清空近 3 个月微博，账号保留。<time datetime="2026-10-31">10月31日</time></li>
+          <li><b>11月2日 21:47</b> 第 14 集片尾字幕延长 19 秒，新增“补拍统筹”等 4 个岗位。<time datetime="2026-11-02">11月2日</time></li>
+          <li><b>11月5日 11:18</b> 知乎“剧集考据”发布 2 段波形对比，指第 9 集气口不一致。<time datetime="2026-11-05">11月5日</time></li>
+          <li><b>11月6日 20:41</b> 片尾字幕第 3 屏新增“配音：林知远”。<time datetime="2026-11-06">11月6日</time></li>
+          <li><b>11月7日 22:10</b> 岚川影业发布 643 字声明，承认补拍，否认替身。<time datetime="2026-11-07">11月7日</time></li>
+          <li><b>11月8日 09:30</b> B站“声纹笔记”第 4 段音频纳入比对，2 段可对齐时间码。<time datetime="2026-11-08">今天 09:30</time></li>
+        </ul>
+      </section>
+
+      <!-- 12 相关推荐 -->
+      <section class="card" id="rel" aria-labelledby="h-rel">
+        <div class="sec-head">
+          <h2 id="h-rel">相关推荐</h2>
+          <span class="sub">按题材与争议类型</span>
+        </div>
+        <div class="rel-tags">
+          <a href="/#deep">剧集补拍时间线</a>
+          <a href="/#timeline">配音署名变更</a>
+          <a href="/#news">综艺剪辑改判</a>
+          <a href="/#guide">营销号断章取义</a>
+          <a href="/#voices">演员原声争议</a>
+          <a href="/#channels">短剧备案信息</a>
+          <a href="/#rank">豆瓣评分异常波动</a>
+          <a href="/#picks">古装剧服化道考据</a>
+          <a href="/#faq">片尾字幕改动</a>
+          <a href="/#deep">微短剧拼接剪辑</a>
+          <a href="/#news">都市剧职业细节失真</a>
+          <a href="/#voices">海报造型相似</a>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 右侧栏 -->
+    <aside class="side-col" aria-label="侧栏">
+      <div class="side-card">
+        <h2>今日可核对</h2>
+        <ul class="mini-list">
+          <li><a href="/#timeline">《长夜借灯》第 4 段音频入库</a><span class="d">11月8日 09:30 · B站 声纹笔记</span></li>
+          <li><a href="/#deep">岚川影业声明原文 643 字</a><span class="d">11月7日 22:10 · @岚川影业</span></li>
+          <li><a href="/#updates">豆瓣评分 7.9→7.6</a><span class="d">11月7日 15:02 · 豆瓣条目</span></li>
+          <li><a href="/#updates">片尾新增配音署名</a><span class="d">11月6日 20:41 · 腾讯视频</span></li>
+          <li><a href="/#news">加更版多出 6 分 18 秒</a><span class="d">10月29日 19:55 · 芒果TV</span></li>
+        </ul>
+      </div>
+
+      <div class="side-card quote-card">
+        <h2 style="border-bottom-color:#cfe0d6">创作者证言</h2>
+        <p>“补拍不是问题，问题是补拍之后字幕里多出来的岗位，观众要到第二版才看得见。”</p>
+        <div class="who">—— 一位剧集统筹，从业 7 年，11月7日 受访</div>
+      </div>
+
+      <div class="side-card">
+        <h2>可信度分层</h2>
+        <ul class="mini-list">
+          <li><span class="badge g">已确认</span>字幕改动、片头提示、评分变化，平台可复现。<span class="d">共 14 条</span></li>
+          <li><span class="badge">片方回应</span>岚川影业声明、节目组未回应，均标出处。<span class="d">共 9 条</span></li>
+          <li><span class="badge y">第三方转述</span>音色对比、现场拍屏、帧对比视频。<span class="d">共 11 条</span></li>
+          <li><span class="badge" style="background:#eee;color:#555">待验证推测</span>替身、动机、范围，缺原始素材。<span class="d">共 3 条</span></li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <h2>本周数字</h2>
+        <ul class="mini-list">
+          <li>线索总数 37 条，涉 6 部剧集、2 档综艺</li>
+          <li>片方正式声明 1 份，节目组 0 份</li>
+          <li>录音片段 4 段，可对齐时间码 2 段</li>
+          <li>片尾字幕改动 2 次，间隔 4 天</li>
+          <li>热搜相关话题 5 个，最高位第 9 位</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand">
+          <svg class="logo" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#a8322d"/>
+            <path d="M17 19h30v5H17z" fill="#f5ede4"/>
+            <path d="M17 28h30v5H17z" fill="#f5ede4" opacity=".78"/>
+            <path d="M17 37h30v5H17z" fill="#f5ede4" opacity=".55"/>
+            <circle cx="46" cy="46" r="10" fill="#f7e3e0"/>
+            <path d="M41.5 46h9M46 41.5v9" stroke="#a8322d" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+          国产黑料最新曝光
+        </div>
+        <p class="foot-pos">把录音、通告单、字幕版本与片方措辞并排放在一条时间线上，供读者自己比对缺口。</p>
+        <div class="foot-note">站内条目均为示例数据，人物、剧名、账号与日期用于展示核查结构，不构成对任何真实主体的指认。页面更新时间：2026年11月8日 09:30，对应正文“最新更新”首条。</div>
+      </div>
+
+      <div class="foot-col">
+        <h3>观察栏目</h3>
+        <ul>
+          <li><a href="/#overview">现象地图</a></li>
+          <li><a href="/#picks">本周精选</a></li>
+          <li><a href="/#updates">最新更新</a></li>
+          <li><a href="/#channels">分类索引</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h3>核查工具</h3>
+        <ul>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">核查六步</a></li>
+          <li><a href="/#faq">常见疑问</a></li>
+          <li><a href="/#timeline">时间线</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h3>社区与榜</h3>
+        <ul>
+          <li><a href="/#voices">观众评论</a></li>
+          <li><a href="/#rank">本周热度榜</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#rel">相关推荐</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© 2026 国产黑料最新曝光 · 示例演示站点</span>
+      <span>内容口径：事实、片方回应、第三方转述、待验证推测四层分列</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* 移动端菜单 */
+  var btn = document.getElementById('menuBtn');
+  var nav = document.getElementById('mainNav');
+  if (btn && nav) {
+    btn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A' && window.innerWidth <= 760) {
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape' && nav.classList.contains('open')) {
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        btn.focus();
+      }
+    });
+  }
+
+  /* 搜索：本地查找 */
+  var input = document.getElementById('q');
+  var box = document.getElementById('searchResult');
+  if (input && box) {
+    var index = [];
+    var push = function(href, title, hint){
+      index.push({href: href, title: title, hint: hint});
+    };
+    push('/#deep', '《雾港追凶》补拍争议：三份时间文件的对读', '深度解析');
+    push('/#deep', '《长夜借灯》配音署名：字幕改动与声纹结论', '深度解析');
+    push('/#deep', '《周末不加班》改判 2 分 40 秒', '深度解析');
+    push('/#timeline', '录音比对时间线 10月29日—11月8日', '时间线');
+    push('/#updates', '最新更新：11月8日 09:30 第 4 段音频', '实时更新');
+    push('/#updates', '岚川影业 643 字声明 11月7日', '实时更新');
+    push('/#faq', '补拍后场记板与通告单为何对不上', '常见疑问');
+    push('/#faq', '片尾新增配音署名能否说明前面几集', '常见疑问');
+    push('/#faq', '短剧拼接剪辑 47 秒片段为何未下架', '常见疑问');
+    push('/#guide', '核查六步：存原始页、摊时间线', '体验指南');
+    push('/#channels', '分类索引：补拍、配音、缝合剪辑', '分类索引');
+    push('/#news', '豆瓣评分 7.9→7.6 的短评结构', '相关资讯');
+    push('/#voices', '观众评论：码头戏左手腕细节', '观众评论');
+    push('/#rank', '本周热度榜前 8 条', '榜单');
+    push('/#rel', '相关推荐标签索引', '相关推荐');
+
+    var render = function(kw){
+      var q = kw.trim().toLowerCase();
+      box.innerHTML = '';
+      if (!q) { box.classList.remove('on'); return; }
+      var hit = index.filter(function(it){
+        return (it.title + it.hint).toLowerCase().indexOf(q) > -1;
+      }).slice(0, 8);
+      if (!hit.length) {
+        var d = document.createElement('div');
+        d.className = 'none';
+        d.textContent = '没有找到与“' + kw + '”相关的条目，试试剧名、账号名或“配音”“补拍”“剪辑”。';
+        box.appendChild(d);
+      } else {
+        hit.forEach(function(it){
+          var a = document.createElement('a');
+          a.href = it.href;
+          a.textContent = it.title;
+          var s = document.createElement('span');
+          s.style.cssText = 'display:block;font-size:11.5px;color:#7a6e66';
+          s.textContent = it.hint;
+          a.appendChild(s);
+          box.appendChild(a);
+        });
+      }
+      box.classList.add('on');
+    };
+
+    input.addEventListener('input', function(){ render(input.value); });
+    input.addEventListener('focus', function(){ if (input.value.trim()) render(input.value); });
+    document.addEventListener('click', function(e){
+      if (!box.contains(e.target) && e.target !== input) box.classList.remove('on');
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') box.classList.remove('on');
+    });
+  }
+
+  /* 侧栏滚动高亮 */
+  var links = Array.prototype.slice.call(document.querySelectorAll('#sideNavList a'));
+  var targets = links.map(function(a){
+    var id = a.getAttribute('href').replace('/#', '');
+    return document.getElementById(id);
+  });
+  var onScroll = function(){
+    var pos = window.scrollY + 160;
+    var current = -1;
+    targets.forEach(function(el, i){
+      if (el && el.offsetTop <= pos) current = i;
+    });
+    links.forEach(function(a, i){
+      a.classList.toggle('active', i === current);
+    });
+  };
+  var ticking = false;
+  window.addEventListener('scroll', function(){
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(function(){ onScroll(); ticking = false; });
+    }
+  }, {passive: true});
+  onScroll();
+
+  /* 回到顶部 */
+  var top = document.getElementById('toTop');
+  if (top) {
+    var toggleTop = function(){
+      if (window.scrollY > 480) top.classList.add('on');
+      else top.classList.remove('on');
+    };
+    window.addEventListener('scroll', toggleTop, {passive: true});
+    toggleTop();
+    top.addEventListener('click', function(){
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "国产黑料最新曝光",
+  "description": "汇总国产剧集、综艺与微短剧的争议线索，按时间线、证据强度与片方回应分层呈现。",
+  "inLanguage": "zh-CN",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/#search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "剧集补拍之后，正片里的场记板和通告单为什么会对不上？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "补拍会另起一份通告单和场记板，日期与首轮拍摄不同，正片把两轮素材剪在一起，同一集出现两个日期属正常，判断点是补拍声明与素材替换范围是否一致。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "《长夜借灯》片尾新增配音署名，能说明前面几集也是配音吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不能直接说明。字幕只覆盖它出现的那一版，平台片头的配音版本提示没有标注集数，要确认范围需要分集音轨信息，目前未公开。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "短剧拼接剪辑里的 47 秒片段，平台为什么没有下架？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "截至11月8日09:30视频仍在，点赞3.2万。平台对二创剪辑通常看是否标注来源与是否造成误导，下架与否取决于权利方投诉。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "综艺评分从 78 改判到 82，赛制允许吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "该节目赛制允许导师在录制现场修改一次评分，须口头说明理由。现场拍屏能听到改判，被删的2分40秒是否含理由说明，正片未呈现。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "豆瓣评分一周内从 7.9 跌到 7.6，算刷分吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "7.9到7.6对应约4100条新增短评，集中于11月5日至7日。短评占比上升不等于刷分，平台未公布异常账号处理数量。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "补拍声明里的替换 4 分 20 秒能不能对上正片时长？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "第14集正片43分06秒，声明未说原段落多长，无法直接比对。第14集片尾字幕比11月2日版本多19秒，这一数字可核对。"
+      }
+    }
+  ]
+}
+</script>
+</body>
+                                                                                      </html>
